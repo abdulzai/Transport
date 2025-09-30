@@ -1,0 +1,2 @@
+zip -9 compute_backfill.zip compute_backfill.py
+zip -9 enqueue_backfill.zip enqueue_backfill.py
