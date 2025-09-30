@@ -1,0 +1,13 @@
+# unzip the bundle
+unzip ot-to-aws-watermark-repo.zip
+cd ot-to-aws-watermark-repo
+
+# init a fresh git repo and point it at your GitHub repo
+git init
+git branch -m main
+git add .
+git commit -m "feat: watermark + backfill blueprint (DDB, StepFunctions, SQS, Lambdas, CI)"
+
+# set remote to your repo and push
+git remote add origin https://github.com/abdulzai/Transport.git
+git push -u origin main
